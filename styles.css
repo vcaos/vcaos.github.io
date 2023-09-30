@@ -1,0 +1,131 @@
+:root {
+    --pink-mid: rgb(236,153,193);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Varela Round', sans-serif;
+    color: black;
+}
+
+.home-bg {
+    background-image: url("Images/Desktop3.png");
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    width: 100vw;
+    font-size: 24px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 75px;
+}
+
+a:hover, a:active {
+    color: var(--pink-mid);
+}
+
+.home-container, .contact-container{
+    margin: 50px;
+    width: 50vw;
+    height: auto;
+}
+
+.projects-container {
+    margin: auto;
+    width: 75vw;
+    padding: 10px;
+    text-align: left;
+    height: auto;
+}
+
+h2 {
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    padding-bottom: 40px;
+}
+
+h3 {
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+
+h4 {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.home-container h3 {
+    padding: 0px;
+}
+
+.projects-container h1 {
+    padding: 20px 0px;
+}
+
+.projects-container h3 {
+    padding-bottom: 20px;
+}
+
+hr {
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+.fed, .da {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+figure {
+    padding: 20px;
+}
+
+figcaption {
+    padding: 20px 0px;
+    font-size: 18px;
+}
+
+figcaption.top {
+    padding-top: 0px;
+    color: var(--pink-mid);
+}
+.box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.box img:hover {
+    opacity: 50%;
+}
